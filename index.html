@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character encoding and responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Description for SEO -->
+    <meta name="description" content="HTML5 Page Demonstrating Images, Lists, Tables, Forms, and Multimedia elements.">
+    <!-- Title of the page -->
+    <title>My HTML5 Demonstration Assignment</title>
+</head>
+<body>
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+      <h1>HTML List<h1>
+      <h2>Ordered List with Roman Numerals</h2>
+        <!-- Ordered list with type="I" for Roman numerals -->
+        <ol type="I">
+            <li>Sofware Engineerng Essentials</li>
+            <li>Website Development Technologies</li>
+            <li>Python Development</li>
+            <li>Database Management with SQL</li>
+            <li>Entrepreneurship/Startup</li>
+        </ol>
+    </section>
+
+    <!-- External Image from Pexels (Royalty-Free) -->
+    <section>
+      <h1>External Image<h1>
+        <h2>Link to External Image</h2>
+        <!-- Image sourced from Pexels (royalty-free) -->
+        <img src="https://images.pexels.com/photos/15286/pexels-photo.jpg" alt="Nature Image from Pexels" width="600" height="400">
+    </section>
+
+    <!-- Table of Contacts -->
+    <section>
+      <h1>HTML Table<h1>
+        <h2>Contact Table</h2>
+        <!-- Table with border for visibility -->
+        <table border="1">
+            <thead>
+                <!-- Table headers -->
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Table rows with sample data -->
+                <tr>
+                    <td>John Doe</td>
+                    <td>123 Main St, City</td>
+                    <td>+1234567890</td>
+                    <td>john.doe@example.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>456 Elm St, Town</td>
+                    <td>+0987654321</td>
+                    <td>jane.smith@example.com</td>
+                </tr>
+                <tr>
+                    <td>Alice Johnson</td>
+                    <td>789 Oak St, Village</td>
+                    <td>+1122334455</td>
+                    <td>alice.johnson@example.com</td>
+                </tr>
+                <tr>
+                    <td>Bob Brown</td>
+                    <td>321 Pine St, Hamlet</td>
+                    <td>+5566778899</td>
+                    <td>bob.brown@example.com</td>
+                </tr>
+                <tr>
+                    <td>Charlie Davis</td>
+                    <td>654 Birch St, County</td>
+                    <td>+9988776655</td>
+                    <td>charlie.davis@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+      <h1>HTML Form<h1>
+        <h2>Registration Form</h2>
+        <!-- Form with action="#" for demonstration purposes -->
+        <form action="#" method="post">
+            <!-- Name Field -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <br><br>
+
+            <!-- Email Field -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+
+            <!-- Password Field -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required minlength="8" maxlength="20">
+            <br><br>
+
+            <!-- Date of Birth Field -->
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+
+            <!-- Dropdown Menu -->
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select your country</option>
+                <option value="us">United States</option>
+                <option value="ca">Canada</option>
+                <option value="uk">United Kingdom</option>
+                <option value="au">Australia</option>
+                <option value="ng">Nigeria</option>
+                <option value="kn">Kenya</option>
+                <option value="gh">Ghana</option>
+            </select>
+            <br><br>
+
+            <!-- Radio Buttons -->
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other" required>
+            <label for="other">Other</label>
+            <br><br>
+
+            <!-- Checkboxes -->
+            <label>Interests:</label>
+            <input type="checkbox" id="coding" name="interests" value="coding">
+            <label for="coding">Coding</label>
+            <input type="checkbox" id="reading" name="interests" value="reading">
+            <label for="reading">Reading</label>
+            <input type="checkbox" id="traveling" name="interests" value="traveling">
+            <label for="traveling">Traveling</label>
+            <br><br>
+
+            <!-- Submit Button -->
+            <input type="submit" value="Register">
+            <button type="reset">Cancel</button>
+        </form>
+    </section>
+
+    <!-- Multimedia Elements -->
+    <section>
+      <h1>Audio and Video<h1>
+        <h2>Multimedia Elements</h2>
+        <!-- Audio -->
+        <h3>Audio Example</h3>
+        <!-- Audio player with royalty-free music from FreeMusicArchive -->
+        <audio controls>
+            <source src="https://www.freemusicarchive.org/music/download/0b5f6b5f-0b5f-6b5f-0b5f-6b5f0b5f6b5f" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <!-- Video -->
+        <h3>Video Example</h3>
+        <!-- Video player with royalty-free video from Pexels Videos -->
+        <video controls width="600">
+            <source src="https://videos.pexels.com/video/854982" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+    </section>
+</body>
+</html>
